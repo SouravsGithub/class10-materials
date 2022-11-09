@@ -61,8 +61,44 @@ header nav img {
 }
 
 /* HERO SECTION STYLING */
+.hero > section {
+  float: left;
+  width: 60%;
+  padding: 3% 10%;
+}
 .hero h1 {
-  font-size: 60px;
+  font-size: 80px;
+  margin-bottom: 1.5rem;
+}
+.hero form {
+  display: inline-block;
+  float: left;
+}
+.hero input {
+  padding: 0.9rem 0;
+  padding-left: 2rem;
+  padding-right: 15rem;
+}
+.hero form + a {
+  text-decoration: none;
+  color: white;
+  background-color: #ff9200;
+  padding: 0.9rem 2rem;
+  font-size: 1.3rem;
+  float: left;
+}
+.hero > section > a + a {
+  text-decoration: none;
+  color: black;
+  float: left;
+  margin: 3rem 0;
+  margin-right: 4rem;
+}
+.hero > section > a + a > img {
+  width: 20px;
+}
+.hero > section > a + a span {
+  font-size: 1.3rem;
 }
 footer {
 }
