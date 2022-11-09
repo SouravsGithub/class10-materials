@@ -81,6 +81,7 @@ header nav img {
 .hero form {
   display: inline-block;
   float: left;
+  box-shadow: 0px 2px 30px 1px rgba(0, 0, 0, 0.1);
 }
 .hero input {
   padding: 0.9rem 0;
@@ -94,6 +95,9 @@ header nav img {
   padding: 0.9rem 2rem;
   font-size: 1.3rem;
   float: left;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  box-shadow: 0px 2px 30px 1px rgba(0, 0, 0, 0.1);
 }
 .hero > section > a + a {
   text-decoration: none;
@@ -110,6 +114,8 @@ header nav img {
 }
 footer {
 }
+
+/* ABOUT SECTION STYLING */
 
 /******************************************
 /* ADDITIONAL STYLES
