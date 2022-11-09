@@ -120,12 +120,49 @@ header nav img {
 /* ABOUT SECTION STYLING */
 .about-image-container {
   height: 100vh;
-  background: url(../images/brooke-lark-of0pMsWApZE-unsplash.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: -50% -50%;
 }
-
+.about {
+  float: left;
+  width: 40%;
+  margin-left: 35%;
+  margin-top: 5%;
+}
+.about h2 {
+  color: #f99200;
+  font-size: 22px;
+}
+.about h3 {
+  font-size: 4rem;
+  margin: 0;
+}
+.about p {
+  line-height: 1.5;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-top: 5%;
+}
+.about p + p {
+  margin-bottom: 8%;
+}
+.about a {
+  float: left;
+}
+.about > p + a {
+  text-decoration: none;
+  color: white;
+  background-color: #ff9200;
+  padding: 1rem 1.5rem;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+.about > a + a {
+  text-decoration: none;
+  color: white;
+  background-color: #ffa42cf1;
+  padding: 1rem 1rem;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
 footer {
 }
 
