@@ -99,19 +99,33 @@ header nav img {
   border-bottom-right-radius: 7px;
   box-shadow: 0px 2px 30px 1px rgba(0, 0, 0, 0.1);
 }
-.hero > section > a + a {
+.hero > section ul {
+  list-style: none;
+  clear: both;
+}
+.hero > section li a {
   text-decoration: none;
   color: black;
   float: left;
   margin: 3rem 0;
   margin-right: 4rem;
 }
-.hero > section > a + a > img {
+.hero > section li a img {
   width: 20px;
 }
-.hero > section > a + a span {
+.hero > section li a span {
   font-size: 1.3rem;
 }
+
+/* ABOUT SECTION STYLING */
+.about-image-container {
+  height: 100vh;
+  background: url(../images/brooke-lark-of0pMsWApZE-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -50% -50%;
+}
+
 footer {
 }
 
