@@ -61,6 +61,14 @@ header nav img {
 }
 
 /* HERO SECTION STYLING */
+.image-container {
+  height: 100vh;
+  background: url(../images/brooke-lark-08bOYnH_r_E-unsplash.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  object-fit: cover;
+}
 .hero > section {
   float: left;
   width: 60%;
