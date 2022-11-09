@@ -61,7 +61,9 @@ header nav img {
 }
 
 /* HERO SECTION STYLING */
-
+.hero h1 {
+  font-size: 60px;
+}
 footer {
 }
 
