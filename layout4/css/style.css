@@ -27,6 +27,9 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
+
+/* HEADER STYLING */
+
 header {
   height: 60px;
 }
@@ -56,6 +59,8 @@ header nav ul li a {
 header nav img {
   width: 24px;
 }
+
+/* HERO SECTION STYLING */
 
 footer {
 }
