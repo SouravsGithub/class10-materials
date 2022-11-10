@@ -120,12 +120,23 @@ header nav img {
 /* ABOUT SECTION STYLING */
 .about-image-container {
   height: 100vh;
+  background: url(../images/made_by_siblu.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /* This will be the proper way to style the background but I will use the code below once it's ready */
+
+  /* background-image: url(../images/brooke-lark-of0pMsWApZE-unsplash.jpg),
+    url(../images/olga-kudriavtseva-s8J1DlRroo0-unsplash.jpg);
+  background-size: 80%, 35%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left -38rem, bottom -16.5rem right -6.5rem; */
 }
 .about {
   float: left;
-  width: 40%;
-  margin-left: 35%;
-  margin-top: 5%;
+  width: 42%;
+  margin-left: 38%;
+  margin-top: 2%;
 }
 .about h2 {
   color: #f99200;
