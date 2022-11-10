@@ -174,6 +174,43 @@ header nav img {
   border-top-right-radius: 7px;
   border-bottom-right-radius: 7px;
 }
+
+/* ORDER SECTION STYLING */
+.order {
+  background: #f2f6f7;
+}
+.order h2 {
+  color: #f99200;
+  font-size: 22px;
+  text-align: center;
+}
+.order h3 {
+  font-size: 4rem;
+  margin: 0;
+  text-align: center;
+}
+.order ul {
+  list-style: none;
+  width: 50%;
+  margin: 3% auto;
+}
+.order ul li {
+}
+.order ul > li > a {
+  text-decoration: none;
+  color: #f99200;
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 2% 0;
+  border-bottom: 2px solid #f99200;
+  font-size: 20px;
+}
+.order ul > li + li > a {
+  color: black;
+  border-color: rgb(229, 229, 229);
+}
+
 footer {
 }
 
