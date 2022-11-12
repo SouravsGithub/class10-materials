@@ -175,29 +175,29 @@ header nav img {
   border-bottom-right-radius: 7px;
 }
 
-/* ORDER SECTION STYLING */
-.order {
+/* MENU SECTION STYLING */
+.menu {
   background: #f2f6f7;
   overflow: hidden;
   padding-top: 4%;
 }
-.order h2 {
+.menu h2 {
   color: #f99200;
   font-size: 22px;
   text-align: center;
 }
-.order h3 {
+.menu h3 {
   font-size: 4rem;
   margin: 0;
   text-align: center;
 }
-.order ul {
+.menu ul {
   list-style: none;
   width: 50%;
   margin: 3% auto;
 }
 
-.order ul > li > a {
+.menu ul > li > a {
   text-decoration: none;
   color: #f99200;
   float: left;
@@ -207,7 +207,7 @@ header nav img {
   border-bottom: 2px solid #f99200;
   font-size: 20px;
 }
-.order ul > li + li > a {
+.menu ul > li + li > a {
   color: black;
   border-color: rgb(229, 229, 229);
 }
@@ -234,19 +234,19 @@ header nav img {
   width: 100%;
 }
 
-/* TIMINGS SECTION STYLING */
+/* ORDER SECTION STYLING */
 
-.timings h2 {
+.order h2 {
   color: #f99200;
   font-size: 22px;
   text-align: center;
 }
-.timings h3 {
+.order h3 {
   font-size: 4rem;
   margin: 0;
   text-align: center;
 }
-.timings > img {
+.order > img {
   float: left;
   width: 5%;
   margin-left: 47%;
