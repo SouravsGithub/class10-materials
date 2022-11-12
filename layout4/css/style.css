@@ -178,7 +178,7 @@ header nav img {
 /* ORDER SECTION STYLING */
 .order {
   background: #f2f6f7;
-  height: 100vh;
+  height: 120vh;
 }
 .order h2 {
   color: #f99200;
@@ -195,8 +195,7 @@ header nav img {
   width: 50%;
   margin: 3% auto;
 }
-.order ul li {
-}
+
 .order ul > li > a {
   text-decoration: none;
   color: #f99200;
@@ -228,9 +227,6 @@ header nav img {
   float: left;
   width: 25%;
   height: 100%;
-}
-
-footer {
 }
 
 /******************************************
