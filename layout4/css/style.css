@@ -178,7 +178,7 @@ header nav img {
 /* ORDER SECTION STYLING */
 .order {
   background: #f2f6f7;
-  height: 50rem;
+  height: 100vh;
 }
 .order h2 {
   color: #f99200;
@@ -232,8 +232,6 @@ header nav img {
 
 footer {
 }
-
-/* ABOUT SECTION STYLING */
 
 /******************************************
 /* ADDITIONAL STYLES
