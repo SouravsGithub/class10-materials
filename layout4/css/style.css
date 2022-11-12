@@ -179,6 +179,7 @@ header nav img {
 .order {
   background: #f2f6f7;
   overflow: hidden;
+  padding-top: 4%;
 }
 .order h2 {
   color: #f99200;
@@ -232,6 +233,25 @@ header nav img {
   height: 100%;
   width: 100%;
 }
+
+/* TIMINGS SECTION STYLING */
+
+.timings h2 {
+  color: #f99200;
+  font-size: 22px;
+  text-align: center;
+}
+.timings h3 {
+  font-size: 4rem;
+  margin: 0;
+  text-align: center;
+}
+.timings > img {
+  float: left;
+  width: 5%;
+  margin-left: 47%;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
