@@ -178,6 +178,7 @@ header nav img {
 /* ORDER SECTION STYLING */
 .order {
   background: #f2f6f7;
+  height: 50rem;
 }
 .order h2 {
   color: #f99200;
@@ -209,6 +210,24 @@ header nav img {
 .order ul > li + li > a {
   color: black;
   border-color: rgb(229, 229, 229);
+}
+.order > section {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 8%;
+  height: 100%;
+}
+.top,
+.bottom {
+  height: 50%;
+  width: 100%;
+}
+
+.top img,
+.bottom img {
+  float: left;
+  width: 25%;
+  height: 100%;
 }
 
 footer {
