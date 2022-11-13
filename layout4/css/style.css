@@ -396,12 +396,26 @@ footer {
   padding: 0.8rem 1rem;
   padding-right: 3rem;
 }
+.bottom {
+  padding-bottom: 10%;
+}
 .bottom > * {
   float: left;
   width: 50%;
 }
+.bottom > p {
+  padding-top: 1.8%;
+}
 .bottom > .socials {
   float: left;
+  width: 25%;
+  margin-left: 25%;
+  padding-top: 2.5%;
+}
+.bottom > .socials > img {
+  float: left;
+  width: 18%;
+  padding-left: 7%;
 }
 /******************************************/
 /* ADDITIONAL STYLES
