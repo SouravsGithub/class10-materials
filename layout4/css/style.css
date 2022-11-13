@@ -360,7 +360,7 @@ footer {
 .footer-top {
   padding-top: 3%;
   padding-bottom: 25%;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(202, 202, 202);
 }
 .footer-top a {
   color: #f99200;
@@ -394,7 +394,7 @@ footer {
 }
 .footer-top input {
   padding: 0.8rem 1rem;
-  padding-right: 3rem;
+  padding-right: 4rem;
 }
 .footer-bottom {
   padding-bottom: 10%;
