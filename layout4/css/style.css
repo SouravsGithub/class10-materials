@@ -235,7 +235,10 @@ header nav img {
 }
 
 /* ORDER SECTION STYLING */
-
+.order {
+  margin: 7% auto;
+  border: 1px solid black;
+}
 .order h2 {
   color: #f99200;
   font-size: 22px;
@@ -292,6 +295,53 @@ header nav img {
   width: 50%;
   object-fit: cover;
   margin: 5% auto;
+}
+
+/* TESTIMONIALS SECTION STYLING */
+.testimonials {
+  margin-bottom: 3%;
+}
+.testimonials h2 {
+  color: #f99200;
+  font-size: 22px;
+  text-align: center;
+}
+.testimonials h3 {
+  font-size: 4rem;
+  margin: 0.5% 0 0.5% 0;
+  text-align: center;
+}
+.testimonials > img {
+  width: 12%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 3%;
+}
+.testimonials > img + p {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.testimonials span {
+  display: block;
+  text-align: center;
+}
+.testimonials > p + span {
+  font-size: 20px;
+  color: grey;
+}
+.testimonials > span + span {
+  font-size: 1.5rem;
+  margin: 1.5% 0;
+}
+.testimonials > span + p {
+  font-size: 1.6rem;
+  width: 60%;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-style: italic;
 }
 /******************************************/
 /* ADDITIONAL STYLES
