@@ -243,15 +243,56 @@ header nav img {
 }
 .order h3 {
   font-size: 4rem;
-  margin: 0;
+  margin: 0.5% 0 0.5% 0;
   text-align: center;
 }
-.order > img {
+.order .dialer {
   float: left;
   width: 5%;
-  margin-left: 47%;
+  margin-left: 47.5%;
+  margin-top: 2%;
+  margin-bottom: 1.5%;
 }
-
-/******************************************
+.order > span,
+.order > p {
+  display: block;
+  clear: both;
+  text-align: center;
+}
+.order > span {
+  margin-top: 9%;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.order > p {
+  font-size: 2rem;
+  margin-top: 1%;
+  color: #f99200;
+  font-weight: bold;
+}
+.opening {
+  width: 50%;
+  margin: 0 auto;
+}
+.opening > section {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.opening > section * {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.opening > section > p + p {
+  font-size: 2rem;
+  margin-top: 1%;
+}
+.order > img {
+  display: block;
+  width: 50%;
+  object-fit: cover;
+  margin: 5% auto;
+}
+/******************************************/
 /* ADDITIONAL STYLES
 /*******************************************/
