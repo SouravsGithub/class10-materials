@@ -347,6 +347,62 @@ header nav img {
   line-height: 1.5;
   font-style: italic;
 }
+
+/* FOOTER SECTION STYLING */
+footer {
+  background: #f2f6f7;
+  overflow: hidden;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.top {
+  padding-top: 3%;
+  padding-bottom: 25%;
+  border-bottom: 1px solid black;
+}
+.top a {
+  color: #f99200;
+  font-size: 1rem;
+}
+.top > section {
+  float: left;
+  width: 25%;
+}
+.top > section + section {
+  padding-top: 2%;
+}
+.container h5 {
+  font-size: 1.8rem;
+}
+.container h6 {
+  font-size: 1rem;
+  margin: 10% 0;
+  font-weight: light;
+}
+.top > section > p {
+  padding: 3%;
+  line-height: 1.5;
+}
+.top > section > h5 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.top > section + section > h5 {
+  margin-bottom: 15%;
+}
+.top input {
+  padding: 0.8rem 1rem;
+  padding-right: 3rem;
+}
+.bottom > * {
+  float: left;
+  width: 50%;
+}
+.bottom > .socials {
+  float: left;
+}
 /******************************************/
 /* ADDITIONAL STYLES
 /*******************************************/
