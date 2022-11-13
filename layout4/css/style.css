@@ -236,7 +236,9 @@ header nav img {
 
 /* ORDER SECTION STYLING */
 .order {
-  margin: 7% auto;
+  margin: 0% auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
   border: 1px solid black;
 }
 .order h2 {
@@ -300,6 +302,8 @@ header nav img {
 /* TESTIMONIALS SECTION STYLING */
 .testimonials {
   margin-bottom: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 .testimonials h2 {
   color: #f99200;
