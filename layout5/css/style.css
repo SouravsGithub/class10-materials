@@ -72,7 +72,89 @@ nav > a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  height: 70rem;
+  height: 68rem;
+  position: relative;
+}
+.hero > .container {
+  width: 90%;
+  margin-left: auto;
+  padding-top: 19%;
+}
+.hero h1 {
+  color: white;
+  font-size: 7rem;
+  margin: 0;
+  font-weight: lighter;
+}
+.container > p {
+  color: white;
+  letter-spacing: 5px;
+  margin: 1.2% 0;
+  margin-bottom: 4%;
+}
+.cta-services {
+  padding: 1rem 2rem;
+  background: black;
+  color: rgb(232, 232, 232);
+  text-decoration: none;
+}
+.hero-card {
+  height: 28%;
+  padding: 2%;
+  background: black;
+  color: rgb(232, 232, 232);
+  position: absolute;
+  bottom: 0;
+}
+.hero-card p {
+  margin-bottom: 8%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.bigger-text {
+  font-size: 1.2rem;
+}
+.bigger-text span {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: white;
+}
+.bigger-text + .bigger-text {
+  padding-bottom: 12%;
+}
+.hero-card > p + a {
+  padding: 1rem 2rem;
+  background: white;
+  text-decoration: none;
+  color: black;
+}
+.navigations {
+  color: black;
+  font-size: 1.2rem;
+  padding: 0.8rem 0.8rem;
+  background: white;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: bold;
+
+  position: absolute;
+}
+.left {
+  bottom: 5%;
+  right: 8.5%;
+}
+.right {
+  bottom: 5%;
+  right: 5%;
+}
+.container a + span {
+  display: inline-block;
+  position: absolute;
+  top: 45%;
+  right: -7%;
+  color: white;
+  letter-spacing: 3px;
+  transform: rotate(90deg);
 }
 footer {
 }
