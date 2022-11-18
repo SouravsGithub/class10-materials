@@ -68,7 +68,7 @@ nav > a {
 /* HERO SECTION STYLING */
 .hero {
   clear: both;
-  background: url(../images/original-image.jpg);
+  background: url(../images/great2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -78,7 +78,7 @@ nav > a {
 .hero > .container {
   width: 90%;
   margin-left: auto;
-  padding-top: 19%;
+  padding-top: 20%;
 }
 .hero h1 {
   color: white;
