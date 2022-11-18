@@ -215,8 +215,9 @@ nav > a {
 /* STYLING FOURTH SECTION */
 
 .fourth-section {
-  width: 60%;
-  margin: 0 auto;
+  width: 70%;
+  margin: 5% auto;
+  margin-bottom: 40%;
 }
 .fourth-section > section {
   float: left;
@@ -231,7 +232,7 @@ nav > a {
 .text-box {
   background: black;
   text-align: center;
-  margin: 5%;
+  margin: 0 5%;
   padding: 3%;
 }
 .text-box > * {
