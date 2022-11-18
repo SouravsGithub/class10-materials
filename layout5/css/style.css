@@ -156,6 +156,25 @@ nav > a {
   letter-spacing: 3px;
   transform: rotate(90deg);
 }
+
+/* SECOND SECTION */
+
+.hero + section {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.hero + section > section {
+  text-align: center;
+  float: left;
+  width: 33.3333%;
+  padding: 3%;
+}
+.last-one {
+  margin-bottom: 1.5%;
+}
+
 footer {
 }
 
