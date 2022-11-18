@@ -175,6 +175,42 @@ nav > a {
   margin-bottom: 1.5%;
 }
 
+/* STYLING THIRD SECTION */
+
+.third-section {
+  background: #f3f4f6;
+  clear: both;
+}
+.centered {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  overflow: hidden;
+}
+.centered > section {
+  float: left;
+  width: 45%;
+}
+.centered > section + section {
+  width: 50%;
+  margin-left: 5%;
+}
+.centered > section > h2 {
+  font-size: 2.7rem;
+  margin: 0;
+}
+.centered > section > p {
+  margin: 5% 0;
+  padding-bottom: 10%;
+  line-height: 1.8;
+}
+.centered > section > a {
+  padding: 1.5rem 3rem;
+  background: black;
+  color: rgb(232, 232, 232);
+  text-decoration: none;
+}
 footer {
 }
 
